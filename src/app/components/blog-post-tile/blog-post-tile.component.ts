@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
-import { BlogPost } from '../blog-post';
-import { TruncatePipe } from '../truncate.pipe';
+import { BlogPost } from 'src/app/blog-post';
+import { TruncatePipe } from 'src/app/pipes/truncate.pipe';
 
 @Component({
   selector: 'app-blog-post-tile',

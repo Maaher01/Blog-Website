@@ -1,6 +1,6 @@
-import { Component, OnInit, QueryList, ViewChild, ViewChildren } from '@angular/core';
-import { BlogDataService } from '../blog-data.service';
-import { BlogPost } from '../blog-post';
+import { Component, OnInit, QueryList, ViewChildren } from '@angular/core';
+import { BlogDataService } from 'src/app/services/blog-data.service';
+import { BlogPost } from 'src/app/blog-post';
 import { BlogPostTileComponent } from '../blog-post-tile/blog-post-tile.component';
 
 @Component({
